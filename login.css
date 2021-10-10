@@ -1,0 +1,109 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url(../HTML\ Uriel/img/fundologin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginbox {
+
+    width: 320px;
+    height: 430px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 70px 30px;
+    border: 2px solid white;
+    
+}
+
+.iconlogin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border: 2px solid white;
+
+}
+
+.nomelogin {
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    top: -10px;
+}
+
+.loginbox p {
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+
+}
+
+.loginbox input {
+
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.loginbox input[type="text"],input[type="password"]{
+
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+    height: 40px;  
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.loginbox input[type="submit"]{
+
+    outline: none;
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right bottom, #ff0000, #f10000, #e30000, #d50000, #c70000, #b4000c, #a00013, #8c0017, #6b071c, #490d1a, #280d13, #000000);
+    color: white;
+}
+
+.loginbox input[type="submit"]:hover{
+
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  
+    text-decoration: none;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+a:hover{
+    
+    cursor: pointer;
+    color: tomato;
+}
